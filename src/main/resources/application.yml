@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    username: root
+    password: #password
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/ssafy_oy?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+  server:
+    error:
+      whitelabel:
+        false
+      ## white label error 
